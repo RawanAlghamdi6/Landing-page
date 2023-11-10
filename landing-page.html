@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landing-page.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+    <div class="landing-page-text">
+<p>تعلم المواد الجامعية صار أسهل!<br> <span>مع أرشفة،رفيق دربك في مسيرتك الجامعية</span></p>
+
+<a href="#" class="buttons button1 ">ابدأ التعلم  </a>
+<a href="#" class="buttons button2">انضم كصانع محتوى </a>
+   </div>
+
+   <div class="landing-page-features">
+
+    <div class="features-card">
+        <img src="/files.jpg" alt="files">
+        <h3>محتوى دورات شامل</h3>
+        <p>تحتوي الدورات على ملفات مساعدة و اختبارات تجريبية</p>
+        <div class="text-line"></div>
+    </div>
+   
+
+    <div class="features-card">
+        <img src="/student.jpg" alt="student">
+        <h3>دورات واضحة و مفهومة</h3>
+        <p>تقدم المعلومة من طالب الى طالب بطريقة واضحة و مفهومة</p>
+        <div class="text-line"></div>
+    </div>
+
+    
+
+    <div class="features-card">
+        <img src="/experince.jpg" alt="experince">
+        <h3>تبادل الخبرات بين الطلاب</h3>
+        <p>تواجد الكثير من الجامعات يسهل تبادل خبرات عديدة بين الطلاب</p>
+        <div class="text-line"></div>
+    </div>
+   </div>
+  
+   
+   <div class="landing-page-universities">
+    <div class="landing-page-universities-text">الجامعات</div>
+    <div class="University-container">
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+                <div class="swiper-slide card">
+                    <a href=""><div class="card-content">
+                        <div class="image">
+                            <img src="/KKU.png" alt="">
+                        </div>
+                    </div></a>
+                </div>
+
+                <div class="swiper-slide card">
+                    <a href=""><div class="card-content">
+                      <div class="image">
+                          <img src="/KFUPM.png" alt="">
+                      </div>
+                  </div></a>
+              </div>
+
+              <div class="swiper-slide card">
+                <a href=""><div class="card-content">
+                    <div class="image">
+                        <img src="/ksu_logo.png" alt="">
+                    </div>
+                </div></a>
+            </div>
+
+            <div class="swiper-slide card">
+                <a href=""><div class="card-content">
+                  <div class="image">
+                      <img src="/IAU.svg" alt="">
+                  </div>
+              </div></a>
+          </div>
+
+          <div class="swiper-slide card">
+            <a href=""><div class="card-content">
+                <div class="image">
+                    <img src="/IAU.svg" alt="">
+                </div>
+            </div></a>
+        </div>
+
+        <div class="swiper-slide card">
+            <a href="https://uqu.edu.sa/"><section class="card-content">
+                <div class="image">
+                    <p class="card-text">استعرض جميع الجامعات</p>
+                </div>
+            </section></a>
+        </div>
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- initializing swiper slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 20,
+          grabCursor: true,
+          autoplay: {
+              delay: 1500,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            },
+          slidesPerGroup: 1,
+          loop: false,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+
+  // Responsive breakpoints
+         breakpoints: {
+    // when window width is >= 320px
+             320: {
+          slidesPerView: 2,
+          spaceBetween: 20
+    },
+    // when window width is >= 480px
+            480: {
+         slidesPerView: 3,
+         spaceBetween: 30
+    },
+    
+  }
+
+        });
+        </script>
+        </div>
+
+
+   <div class="landing-page-number-text">
+    <img src="/experince.jpg" alt="">
+    <p class="landing-page-number-text-one">محتوى تعليمي بجودة عالية</p>
+    <p>نفخر بتقديم محتوى عربي عالي الجودة بروح سعودية، يمكن من<br> خلاله تعلم المواد الجامعية بتواجد 8 جامعات سعودية</p>
+   </div>
+    
+        <div class="landing-page-number-text-numbers">
+        <div>
+        <p class="numbers">250+</p>
+        <p class="text">طالب وطالبة</p></div>
+        <div class="number-line"></div>
+        <div>
+        <p class="numbers">1920+</p>
+        <p class="text"> شارح وشارحة</p></div>
+        <div class="number-line"></div>
+        <div>
+        <p class="numbers">480+</p>
+        <p class="text"> دورات تدريبية </p></div>
+        <div class="number-line"></div>
+        <div>
+        <p class="numbers">150+</p>
+        <p class="text"> منتج رقمي</p></div> 
+
+       </div>
+    
+ 
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init({
+           duration:1000,
+           delay: 0,
+           once: false,
+         });
+       </script>
+<!--Animate on scroll library--> 
+
+</body>
+</html>
